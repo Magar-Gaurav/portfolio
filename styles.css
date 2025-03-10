@@ -261,10 +261,13 @@ footer>h5{
     justify-items: center;
 }
 .header2>ul{
-    margin-left:-300px;
+    /* margin-left:-100px; */
+    margin-left: 0px;
+    font-size: 12px;
 }
 .pr>section>h2{
     margin-top: 70px;
+    font-size: 20px;
 }
 .pr>section>.bio{
     width: 70%;
@@ -283,7 +286,7 @@ footer>h5{
     margin-left: 10px;
 }
 .pro>section>.projects>:nth-child(1){
-    margin-left: 370px;
+    margin-left: 450px;
 }
 .pro>section>.projects>a>img{
     padding: 10px;
@@ -291,7 +294,7 @@ footer>h5{
 }
 .skill>section>.skill-container{
     font-size: 30px;
-    margin-left: 0;
+    margin-left: -40px;
 }
 .skill>section>.skill-container>i{
     margin-left: 40px;
