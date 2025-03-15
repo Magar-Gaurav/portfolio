@@ -1,6 +1,6 @@
 # Personal portfolio Page
 
-A simple, responsive protfolio page built with HTML and CSS ([live preview](https://magar-gaurav.github.io/portfolio/#no4))
+A simple, responsive protfolio page built with HTML and CSS ([live preview](https://magar-gaurav.github.io/portfolio/))
 ## Technologies Used
 - HTML
 - CSS
