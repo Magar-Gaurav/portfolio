@@ -9,6 +9,10 @@ body{
 html{
     scroll-behavior: smooth;
 }
+/* type effect */
+.pr>section>h2>span{
+    color: red;
+}
 /* header */
 header{
     display: flex;

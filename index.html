@@ -33,7 +33,7 @@
     <!-- bodi -->
      <div class="pr">
     <section>
-      <h2 >Hello Everyone, I'm Gaurav !</h2>
+      <h2 >Hello Everyone, I'm <span class="auto-type"></span></h2>
       <hr />
       <div class="image">
         <img src="logo.png" alt="logo" />
@@ -155,5 +155,16 @@
      <footer>
       <h5>© 2025 Gaurav Magar. All Rights Reserved.</h5>
      </footer>
+
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+     <script>
+      var typed =new Typed(".auto-type",{
+        strings: ["Gaurav Magar","Gourav Magar"],
+        typeSpeed :150,
+        backSpeed :150,
+        loop :true
+      });
+     </script>
   </body>
 </html>
