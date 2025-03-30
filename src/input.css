@@ -1,0 +1,39 @@
+@import "tailwindcss";
+body{
+    font-family: "Gloria Hallelujah",cursive;
+}
+nav{
+    background-color: #C4D9C9;
+}
+@layer components{
+    .breaker{
+        @apply margin: bottom 100px;
+    }
+    .sty{
+        @apply hover:text-white hover:cursor-pointer;
+    }
+    /* styles.css */
+    .shad {
+        @apply hover:cursor-pointer; /* Tailwind cursor style */
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); /* Your custom text shadow */
+    }
+    /* Ensure your custom styles are correctly applied */
+    .im {
+        @apply hover:cursor-pointer;
+        box-shadow: 10px 10px 10px black !important; /* Custom shadow with !important */
+    }
+    .pro{
+        @apply hover:cursor-pointer;
+        border-radius: 10px;
+        width: 20%;
+        padding: 20px;
+        box-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.17);
+    }
+    .pro-img{
+        @apply hover:cursor-pointer;
+        width: 100%;
+    }
+}
+img{
+    border-radius: 50%;
+}
