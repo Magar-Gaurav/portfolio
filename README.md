@@ -1,6 +1,6 @@
 ## Gaurav Magar - Portfolio Website
 Welcome to my personal portfolio website! This is a static webpage built using HTML and Tailwind CSS to showcase my skills, projects, and interests. The website also uses the Typed.js library to create an animated text effect for my name.
-([live preview]())
+([live preview](https://magar-gaurav.github.io/portfolio/))
 
 ## Features
 - Responsive Design: This portfolio is fully responsive and works well on both desktop and mobile devices.
